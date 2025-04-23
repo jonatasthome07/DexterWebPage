@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body{
     background-color:rgb(251, 239, 225);
 }
@@ -84,13 +91,22 @@ nav{
     padding-top: 7px;
     padding-left: 7px;
     padding-bottom: 7px;
+    gap: 8px;
     }
   
   .rooms img {
-    width: 550px; 
+    width: 550px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+  }
+
+  .titulo-room{
+    padding-left: 70px;
+    padding-top: 30px;
+    color:  rgb(91, 71, 47);
+    text-transform: uppercase;
+    font-family: 'Playwrite Australia SA', cursive;
   }
 
   .foto1, .foto2, .foto3{
@@ -99,6 +115,7 @@ nav{
     border-radius: 10px;
     color: black;
     text-align: center;
+    margin-top: 40px;
   }
 
   .foto1 h3, .foto2 h3, .foto3 h3{
