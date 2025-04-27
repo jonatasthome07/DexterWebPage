@@ -94,19 +94,18 @@ nav{
     gap: 8px;
     }
   
-  .rooms img {
+  img {
     width: 550px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
   }
 
-  .titulo-room{
+  .titulo-room, .titulo-service{
     padding-left: 70px;
     padding-top: 30px;
     color:  rgb(91, 71, 47);
     text-transform: uppercase;
-    font-family: 'Playwrite Australia SA', cursive;
   }
 
   .foto1, .foto2, .foto3{
@@ -174,3 +173,65 @@ nav{
     padding-top:20px;
   }
 
+  /*RESPONSIVIDADE*/
+ 
+  @media (max-width: 475px){
+    .navbar-container{
+      position: relative;
+    }
+    
+    .navbar-items{
+      position: absolute;
+      top: 20px;
+    }
+    
+    .navbar-items li {
+      font-size: 12px;
+      font-weight: normal;
+      display: block;
+      padding-bottom: 8px; 
+    }
+
+    .book-btn{
+      display: none;
+    }
+
+    .hotel-front{
+      width: 100%;
+      border-radius: 0;
+      position: relative;
+      right: 27px;
+    }
+    
+    .first-text{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .titulo-room {
+      display: flex;
+    }
+
+    .titulo-room h2{
+      position: relative;
+      right: 40px;
+    }
+    
+    .rooms{
+      display:flex;
+      flex-wrap: wrap;
+      margin-right: 5px;
+    }
+
+    .rooms img{
+      width: 100%;
+    }
+
+    .foto1 a,
+    .foto2 a,
+    .foto3 a {
+      padding: 4px;
+    }
+
+
+  }
