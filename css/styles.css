@@ -21,7 +21,7 @@ body{
     height: 100%;
 }
 
-.logo{
+#logo{
     width: 200px;
     display: flex;
 }
@@ -400,6 +400,55 @@ nav{
     #avaliation{
       display: none;
     }
+
+    .gym{
+      position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+    #hotel-gym{
+      position: absolute;
+      bottom: 170px;
+      width: 100%;
+      height: 80%;
+    }
+
+    .gym-description{
+      position: relative;
+      top: 80px;
+      right: 35px;
+      padding-right: 65px;
+    }
+
+    .salao{
+      display: block;
+      position: relative;
+    }
+
+    #hotel-salao{
+      width: 90%;
+      position: relative;
+      bottom: 90px;
+      right: 30px;
+    }
+
+    .salao-description{
+      position: relative;
+      right: 10px;
+      bottom: 90px;
+    }
+
+    #avaliation3{
+      display: none;
+    }
+
+
+
+    
+    
+
+
 
     .contatos{
       margin-right: 40px;
